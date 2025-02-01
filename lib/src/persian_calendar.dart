@@ -101,8 +101,9 @@ class _PersianCalendarState extends State<PersianCalendar> {
               replacement: ElevatedButton(
                 onPressed: () {},
                 style: const ButtonStyle(
-                  fixedSize:
-                      WidgetStatePropertyAll(Size.fromWidth(double.maxFinite)),
+                  fixedSize: WidgetStatePropertyAll(
+                    Size.fromWidth(double.maxFinite),
+                  ),
                 ),
                 child: const Text('تایید'),
               ),
