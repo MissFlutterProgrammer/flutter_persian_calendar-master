@@ -113,7 +113,11 @@ class _MainCalendarViewState extends State<MainCalendarView> {
   /// When the user picks a day, we have a full date.
   void _handleDayChanged(int day) {
     setState(() {
-      _selectedDate = Jalali(_selectedDate.year, _selectedDate.month, day);
+      _selectedDate = Jalali(
+        _selectedDate.year,
+        _selectedDate.month,
+        day,
+      );
     });
 
     widget.onDateChanged?.call(_selectedDate);

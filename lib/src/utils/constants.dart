@@ -6,7 +6,7 @@ const kPadding = EdgeInsets.symmetric(vertical: 16, horizontal: 16);
 const kRadius = 4.0;
 
 final kStartingDate = Jalali(1300);
-final kEndingDate = Jalali(1405);
+final kEndingDate = Jalali(1500);
 
 enum DatePickerView {
   year,
